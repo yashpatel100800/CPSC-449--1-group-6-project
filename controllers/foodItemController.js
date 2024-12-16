@@ -1,6 +1,6 @@
 const FoodItem = require("../models/foodItemSchema");
 
-// Add a new food item
+// Add new food Items to 
 const addFoodItem = async (req, res) => {
   try {
     const foodItem = new FoodItem(req.body);
